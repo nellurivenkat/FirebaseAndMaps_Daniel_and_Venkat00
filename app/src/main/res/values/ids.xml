@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextBillAmount" type="id" />
+    <item name="textViewResult" type="id" />
+    <item name="spinnerTipPercentage" type="id" />
+    <item name="linearLayout" type="id" />
+    <item name="buttonCalculateTip" type="id" />
+    <item name="buttonClearAll" type="id" />
+    <item name="buttonSwitchTheme" type="id" />
+    <item name="logout" type="id" />
+    <item name="map" type="id" />
+    <item name="footerTextView" type="id" />
+    <item name="textView" type="id" />
+    <item name="user_details" type="id" />
+</resources>

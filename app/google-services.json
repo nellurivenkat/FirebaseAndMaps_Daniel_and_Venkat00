@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "214856971978",
+    "project_id": "mapsandfirebasedanielandvenkat",
+    "storage_bucket": "mapsandfirebasedanielandvenkat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214856971978:android:5879fe4bba3be6b4c1e633",
+        "android_client_info": {
+          "package_name": "com.example.firebaseandmaps_daniel_and_venkat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm3VtiZndl_lF1cSU2rtA_ikv663YeCec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

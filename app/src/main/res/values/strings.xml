@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FirebaseAndMaps_Daniel_and_Venkat</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to Login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="tip_percentages">
+        <item>Select Tip Percentage</item>
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+        <item>30%</item>
+    </string-array>
+</resources>

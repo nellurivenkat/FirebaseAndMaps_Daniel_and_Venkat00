@@ -1,0 +1,39 @@
+<!-- themes.xml -->
+<resources>
+    <!-- Light Mode Theme -->
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light">
+        <item name="colorPrimaryVariant">#009900</item>
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="colorSecondary">#000000</item>
+        <item name="colorTertiary">#000000</item>
+    </style>
+
+    <!-- Dark Mode Theme -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="colorPrimaryVariant">#009900</item>
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#707070</item>
+        <item name="colorSecondary">#FFFFFF</item>
+        <item name="colorTertiary">#FFFFFF</item>
+    </style>
+
+    <!-- Custom Graphic Theme -->
+    <style name="AppTheme.Graphic">
+        <item name="colorPrimaryVariant">#009900</item>
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryDark">#E1F0DA</item>
+        <item name="colorAccent">#37B5B6</item>
+        <item name="colorSecondary">#009688</item>
+        <item name="colorTertiary">#000000</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Light" />
+
+    <!-- Define ActionBar text color style -->
+    <style name="MyActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

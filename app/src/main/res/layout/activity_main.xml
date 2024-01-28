@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Map">
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="9dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_details"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Welcome back!😊"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="398dp"
+        android:layout_height="114dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/border_background"
+        android:fontFamily="@font/vt323"
+        android:padding="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="?attr/colorSecondary"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextBillAmount"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/textViewResult"
+        android:layout_marginEnd="10dp"
+        android:background="?attr/colorAccent"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="Enter Bill Amount"
+        android:inputType="numberDecimal"
+        android:textColor="?attr/colorTertiary"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerTipPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/editTextBillAmount"
+        android:layout_marginEnd="10dp"
+        android:background="?attr/colorAccent"
+        android:entries="@array/tip_percentages"
+        android:text="Select Tip Percentage"
+        android:textColor="?attr/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerTipPercentage"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCalculateTip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimaryDark"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Calculate"
+            android:textColor="?attr/colorTertiary" />
+
+        <Button
+            android:id="@+id/buttonClearAll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="?attr/colorSecondary"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Clear"
+            android:textColor="?attr/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonSwitchTheme"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="8dp"
+            android:background="?attr/colorPrimaryDark"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Change Theme"
+            android:textColor="?attr/colorTertiary" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/logout" />
+
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logout"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="-48dp"
+        android:layout_toEndOf="@+id/logout"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Address on Maps 📌" />
+
+    <TextView
+        android:id="@+id/footerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Made by Daniel Gbenle &amp; Nelluri Venkat"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+
+</RelativeLayout>
